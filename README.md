@@ -1,4 +1,7 @@
 # spiders
+
+该项目是基于python爬虫爬取微步获得风险ip库，可用于开发安全产品过滤/标记存在黑历史的来访ip
+
 前提条件：
 1.安装python3，以及文件中所涉及的python包
 2.如果需要将采集到的ip存入数据库中（开启MySQL数据库，在insert_ip.py中配置连接数据库的所需内容，在main.py中取消insert_ip()的注释）
